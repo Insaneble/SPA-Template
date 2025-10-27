@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPA Navigation Template</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home" onclick="navigateToPage('home'); return false;">
+                    <span class="logo-text">MyApp</span>
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" onclick="navigateToPage('home'); return false;" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" onclick="navigateToPage('about'); return false;" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" onclick="navigateToPage('services'); return false;" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" onclick="navigateToPage('contact'); return false;" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main id="main-content">
+        <!-- Content will be dynamically loaded here -->
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 MyApp. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
